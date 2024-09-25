@@ -1,3 +1,8 @@
 {
-    "dotnet.preferCSharpExtension": true
+    "dotnet.preferCSharpExtension": true,
+    "omnisharp.useGlobalMono": "never",
+    "omnisharp.useEditorFormattingSettings": false,
+    "omnisharp.enableRoslynAnalyzers": false,
+    "omnisharp.enableEditorConfigSupport": false,
+    "dotnet.enabled": false
 }
