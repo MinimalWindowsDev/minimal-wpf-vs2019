@@ -1,8 +1,13 @@
 {
-    "dotnet.preferCSharpExtension": true,
-    "omnisharp.useGlobalMono": "never",
-    "omnisharp.useEditorFormattingSettings": false,
-    "omnisharp.enableRoslynAnalyzers": false,
-    "omnisharp.enableEditorConfigSupport": false,
-    "dotnet.enabled": false
+  "files.exclude": {
+      "**/.git": true,
+      "**/.vs": true,
+      "**/bin": true,
+      "**/obj": true
+  },
+  "editor.formatOnSave": true,
+  "csharp.format.enable": true,
+  "omnisharp.useGlobalMono": "never",
+  "omnisharp.path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\ManagedLanguages\\VBCSharp\\OmniSharp",
+  "omnisharp.useModernNet": false
 }
