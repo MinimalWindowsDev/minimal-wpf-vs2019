@@ -6,7 +6,7 @@ if exist .vs rmdir /s /q .vs
 if exist bin rmdir /s /q bin
 if exist obj rmdir /s /q obj
 
-%DEVENV% MinimalWpfApp.sln /Build "Release|x64"
+%DEVENV% MinimalWpfApp.sln /Build "Release|Any CPU"
 if %ERRORLEVEL% == 0 (
     echo Compilation successful!
     echo Executable can be found in bin\Release\MinimalWpfApp.exe

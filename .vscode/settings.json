@@ -1,13 +1,22 @@
 {
   "files.exclude": {
-      "**/.git": true,
-      "**/.vs": true,
-      "**/bin": true,
-      "**/obj": true
+    "**/.git": true,
+    "**/.vs": true,
+    "**/bin": true,
+    "**/obj": true
   },
   "editor.formatOnSave": true,
   "csharp.format.enable": true,
   "omnisharp.useGlobalMono": "never",
   "omnisharp.path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\ManagedLanguages\\VBCSharp\\OmniSharp",
-  "omnisharp.useModernNet": false
+  "omnisharp.useModernNet": false,
+  "csharp.suppressDotnetInstallWarning": true,
+  "csharp.disableMSBuildDiagnosticWarning": true,
+  "omnisharp.enableRoslynAnalyzers": false,
+  "omnisharp.enableEditorConfigSupport": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dotnet.codeLens.enableReferencesCodeLens": true,
+  "dotnet.codeLens.enableTestsCodeLens": true
 }
